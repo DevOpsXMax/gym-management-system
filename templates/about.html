@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('about') }}">About Us</a>
+            <a href="{{ url_for('membership') }}">Memberships</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Welcome to FitnessHub</h2>
+            <p>
+               Founded with a mission to make elite-level fitness accessible to everyone
+               FitnessHub is more than just a place to sweat. We believe that health is a 
+               journey best taken together, which is why we have built a community-first environment 
+               that prioritizes your personal progress over perfection. From our state-of-the-art 
+               facilities to our certified training team, we provide a supportive space where you 
+               can challenge your limits and celebrate every milestone. Whether you're here for 
+               high-intensity training or a mindful recovery session, we are committed to helping 
+               you become the strongest version of yourself.
+            </p>
+        </section>
+
+        <section>
+            <h2>Our Mission</h2>
+            <p>
+                <ul>
+                    <li><strong>Performance-focused:</strong> "To fuel human potential through elite training, science-backed recovery, and an unbreakable community spirit."</li>
+                    <li><strong>Wellness-focused:</strong> "Our mission is to make sustainable health accessible to everyone by bridging the gap between physical fitness and mental well-being."</li>
+                    <li><strong>Community-focused:</strong> "To build a stronger, healthier world by fostering a supportive community where every member is empowered to succeed."</li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Our Culture</h2>
+            <p>
+                "At FitnessHub, our culture is built on the belief that fitness is a team sport. We 
+                have moved past the era of solitary workouts to create a vibrant 'third place' where 
+                members come to connect as much as they do to sweat. Our environment is intentionally 
+                inclusive and judgment-free, prioritizing progress over perfection. Whether you are 
+                hitting a personal best in the squat rack, joining a community run club, or recharging 
+                in our dedicated recovery zones, you are part of a supportive tribe that celebrates 
+                every win—big or small. We don't just share a space; we share a commitment to 
+                living healthier, more balanced lives together."
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2026 Contact Us. Privacy Policy | Terms of Service | All Rights Reserved</p>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
