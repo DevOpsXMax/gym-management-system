@@ -4,7 +4,7 @@ This is a basic Gym Management System website developed using **Flask**, **HTML*
 
 ## Features
 - Home page with welcome message and gym highlights
-- About Us page describing gym mission and facilities
+- About Us page s describing gym mission and facilities
 - Membership pag e showing membership plans
 - Flask routing with templates
 - Styled using CSS
